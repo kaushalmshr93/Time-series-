@@ -12,7 +12,7 @@
 library(dplyr)
 library(lubridate)
 library(ggplot2)
-setwd("C:\\Users\\Desktop\\TimeSeries\\Group Case Study")
+setwd("C:\\Users\\Desktop\\TimeSeries\\")
 
 rm(list = ls())
 store <- read.csv("Global Superstore.csv", stringsAsFactors = FALSE)
